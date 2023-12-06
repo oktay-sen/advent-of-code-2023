@@ -204,4 +204,6 @@ const solve5b = (input) => {
 // console.log(solve5a(testData))
 // console.log(solve5a(input))
 // console.log(solve5b(testData))
+const startTs = Date.now()
 console.log(solve5b(input))
+console.log('Finished in', Date.now() - startTs, 'ms')
